@@ -1,0 +1,49 @@
+body{
+	background: radial-gradient(circle, rgba(52,171,155,1) 48%, rgba(148,187,233,1) 100%);
+}
+
+.container{
+	width: 500px;
+	height: 500px;
+	background: rgb(34,51,59);
+	border-radius: 50%;
+	position: absolute;
+	top: 80px;
+	left: 33%;
+	border: 5px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	box-shadow: 10px 10px 20px;
+}
+
+#txt{
+	color: white;
+	font-size: 100px;
+}
+
+#txt:hover{
+	font-size: 120px;
+	color: red;
+}
+
+.container:hover{
+	border: 8px solid red;
+}
+
+h3{
+	position: absolute;
+	top: 90%;
+	left: 90%;
+	color: white;
+}
+
+h3:hover{
+	color: red;
+}
+
+p{
+	color: white;
+	font-size: 20px;
+}

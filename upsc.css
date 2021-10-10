@@ -1,0 +1,65 @@
+body{
+	box-sizing: border-box;
+	background-color: rgb(100,90,120);
+}
+
+.container{
+	width: 450px;
+	height: 550px;
+	background-color: black;
+	margin: 40px auto 0 auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	border-radius: 20px;
+	box-shadow: 2px 2px 3px 2px;
+}
+
+.child{
+	width: 60px;
+	height: 60px;
+	background-color: white;
+	border-radius: 50%;
+	margin-top: 35px;
+	margin-left: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+p{
+	font-size: 35px;
+}
+
+.child:hover{
+	background-color: grey;
+	border-color: red;
+}
+
+p:hover{
+	font-size: 50px;
+	color: red;
+}
+
+h2{
+	position: absolute;
+	left: 48%;
+	color: white;
+	margin: auto;
+	padding: 20px;
+	font-size: 40px;
+}
+
+.title{
+	
+	background-color: black;
+	color: white;
+	padding: 11px;
+	width: 450px;
+	text-align: center;
+	border-radius: 20px;
+	margin: 15px auto 0 auto;
+}
+
+h1:hover{
+	color: red;
+}
